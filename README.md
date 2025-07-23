@@ -24,4 +24,8 @@
 
 ## Notes
 - Shared data used by multiple scripts is in the top-level `data/` directory. Relative paths are used in the code to handle this as needed. 
-- Full raw datasets are available upon request; please contact the corresponding author. 
+- Full raw datasets are available upon request; please contact the corresponding author.
+
+## License
+
+<a href="https://github.com/Chiarot-Lab/electrospray-evolution-interface">electrospray-evolution-interface</a> © 2025 is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nd.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
