@@ -84,7 +84,7 @@ plot([delay(2) delay(end)],[MSDcutoff MSDcutoff],'g','LineWidth',3)
 
 axis([delay(1) delay(end) 0.001 250])
 set(gca,'XScale','log','YScale','log')
-set(gca,'MinorGridLineWidth',0.5,'GridLineWidth',1)
+set(gca,'MinorGridLineWidth',0.5,'GridLineWidth',1,'FontSize',24,'LineWidth',1.0)
 
 grid on; box on;
 legend(sprintf('Lower group = %d particles',MSDcutIdx),...
@@ -121,7 +121,7 @@ end
 triplot(DT,'k','LineWidth',1,'color',[0 0 0 0.2])
 scatter(X(:,1),Y(:,1),100,ptCol)
 
-set(gca,'YDir','reverse')
+set(gca,'YDir','reverse','FontSize',24,'LineWidth',1.0)
 xlabel('x (µm)'); ylabel('y (µm)')
 axis equal; box on
 axis([0 roiW*scale 0 roiH*scale] + pad*[-1 1 -1 1])
@@ -224,7 +224,7 @@ legend('v_{overall}')
 xlabel('x (µm)'); ylabel('y (µm)')
 axis equal; box on
 axis([0 roiW*scale 0 roiH*scale] + pad*[-1 1 -1 1])
-set(gca,'YDir','reverse','FontSize',28)
+set(gca,'YDir','reverse','FontSize',24,'LineWidth',1.0)
 
 %% Assign each particle to a cell based on its initial position
 
@@ -295,7 +295,7 @@ end
 
 axis([delay(1) delay(end) 0.001 250])
 set(gca,'XScale','log','YScale','log')
-set(gca,'MinorGridLineWidth',0.5,'GridLineWidth',1)
+set(gca,'MinorGridLineWidth',0.5,'GridLineWidth',1,'FontSize',24,'LineWidth',1.0)
 
 grid on; box on;
 legend(sprintf('Upper group = %d particles',nP-MSDcutIdx),...
@@ -334,7 +334,7 @@ scatter(X_corr(:,1),Y_corr(:,1),100,ptCol)
 sc1 = scatter(NaN,NaN,120,'go','MarkerFaceColor','w','Linewidth',4);
 sc2 = scatter(NaN,NaN,120,'ro','MarkerFaceColor','w','Linewidth',4);
 
-set(gca,'YDir','reverse')
+set(gca,'YDir','reverse','FontSize',24,'LineWidth',1.0)
 xlabel('x (µm)'); ylabel('y (µm)')
 axis equal; box on
 axis([0 roiW*scale 0 roiH*scale] + pad*[-1 1 -1 1])
@@ -425,7 +425,7 @@ fprintf('α = %.3g [ %.3g - %.3g ]\n', high1.b,  high1C(1,2),  high1C(2,2));
 plot(delay(8:40),0.1*delay(8:40),'k-','LineWidth',2)
 text(delay(18),0.1*delay(18),'1',...
     'HorizontalAlignment','left','VerticalAlignment','top')
-set(gca,'FontSize',28)
+set(gca,'FontSize',28,'LineWidth',1.0)
 xticks([0.1 1 10 100])
 yticks([0.01 0.1 1 10 100])
 xlim([0 430])
