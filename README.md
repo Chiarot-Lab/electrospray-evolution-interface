@@ -24,7 +24,7 @@
 
 ## Notes
 - Shared data used by multiple scripts is in the top-level `data/` directory. Relative paths are used in the code to handle this as needed. 
-- Full raw datasets are available upon request; please contact the corresponding author.
+- Full datasets are available upon reasonable request; please contact the corresponding author.
 
 ## License
 
