@@ -1,5 +1,7 @@
 # Data for "Evolution of Electrosprayed Particles at a Static Air-Water Interface on Multiple Time Scales"
 
+[![DOI](https://img.shields.io/badge/DOI-10.1016/j.jcis.2025.139611-blue)](https://doi.org/10.1016/j.jcis.2025.139611)
+
 ### Authors:
 **Joseph M. Prisaznuk<sup>1</sup>**, **Xin Yong<sup>2</sup>**, **Paul R. Chiarot<sup>1\*</sup>**
 
@@ -26,6 +28,12 @@
 - Shared data used by multiple scripts is in the top-level `data/` directory. Relative paths are used in the code to handle this as needed. 
 - Full datasets are available upon reasonable request; please contact the corresponding author.
 
+## Citation
+
+If you use this data or code, please cite:
+
+Prisaznuk, J. M.; Yong, X.; Chiarot, P. R. Evolution of Electrosprayed Particles at a Static Air-Water Interface on Multiple Time Scales. *Journal of Colloid and Interface Science* **2026**, *706*, 139611. https://doi.org/10.1016/j.jcis.2025.139611
+
 ## License
 
-<a href="https://github.com/Chiarot-Lab/electrospray-evolution-interface">electrospray-evolution-interface</a> © 2025 is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nd.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
+<a href="https://github.com/Chiarot-Lab/electrospray-evolution-interface">electrospray-evolution-interface</a> © 2025 is licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
